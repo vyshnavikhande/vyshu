@@ -1,0 +1,17 @@
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\bin\Debug\netstandard2.0\ContactsAssignment.deps.json
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\bin\Debug\netstandard2.0\ContactsAssignment.dll
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\bin\Debug\netstandard2.0\ref\ContactsAssignment.dll
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\bin\Debug\netstandard2.0\ContactsAssignment.pdb
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\AddingContacts.xaml.g.cs
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\Contact.xaml.g.cs
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\ContactsDetailPage.xaml.g.cs
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\Favourites.xaml.g.cs
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\ContactsAssignment.AssemblyInfoInputs.cache
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\ContactsAssignment.AssemblyInfo.cs
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\ContactsAssignment.dll
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\ref\ContactsAssignment.dll
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\ContactsAssignment.pdb
+C:\Users\vyshnavi.khande\source\repos\ContactsAssignment\ContactsAssignment\ContactsAssignment\obj\Debug\netstandard2.0\ContactsAssignment.csprojAssemblyReference.cache

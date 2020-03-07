@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:Local ="clr-namespace:ContactsAssignment"
+             x:Class="ContactsAssignment.Contact"
+             Title="All"
+             Padding="10">
+    <ContentPage.BindingContext>
+        <Local:ContactsListViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="search.png"
+                     Clicked="ToolbarItem_Clicked"
+                     Order="Primary"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <StackLayout>
+            <SearchBar IsVisible="False" x:Name="serach"/>
+        </StackLayout>
+        <AbsoluteLayout>
+            <ListView x:Name="listView" ItemsSource="{Binding Source={x:Static Local:ContactsListViewModel.Employees}}" HasUnevenRows="True"
+                  ItemSelected="listView_ItemSelected"
+                  SelectedItem="{Binding SelectedContact}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="5">
+                                <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                                    <ic:CircleImage WidthRequest="50" HeightRequest="50" Aspect="AspectFill" Source="{Binding ImageUrl}"/>
+                                    <Label Text="{Binding ContactName}"  VerticalOptions="Center"/>
+                                    <!--<Label Text="{Binding PhoneNumber}" TextColor="Gray"/>
+                                    <Label Text="{Binding EmailAddress}"/>-->
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ImageButton CornerRadius="30"
+                    BackgroundColor="DodgerBlue"
+                    Source="user.png"
+                    Padding="5"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    AbsoluteLayout.LayoutBounds="1,1,60,60"
+                    Clicked="Add_Contacts"/>
+        </AbsoluteLayout>
+    </StackLayout>
+</ContentPage>
